@@ -7,7 +7,7 @@
 			<class name="grid.TestRemote" />
 		</classes>
 	</test>
-	
+
 <!--	<test thread-count="5" name="Chrome Test 3">-->
 <!--		<parameter name="browser" value="chrome" />-->
 <!--		<classes>-->

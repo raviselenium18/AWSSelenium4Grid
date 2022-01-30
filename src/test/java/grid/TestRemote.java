@@ -22,7 +22,7 @@ public class TestRemote {
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("Hello Grid!!!");
 		System.out.println("Google");
-		System.out.println("AWS");
+		System.out.println("Hello AWS");
 		driver.quit();
 	}
 }

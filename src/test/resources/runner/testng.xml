@@ -14,20 +14,4 @@
 <!--			<class name="grid.TestParallel" />-->
 <!--		</classes>-->
 <!--	</test>-->
-
-<!--	<test thread-count="5" name="Chrome Test 4">-->
-<!--		<parameter name="browser" value="chrome" />-->
-<!--		<classes>-->
-<!--			<class name="grid.TestParallel" />-->
-<!--		</classes>-->
-<!--	</test>-->
-
-<!--	<test thread-count="5" name="Firefox Test">-->
-<!--		<parameter name="browser" value="firefox" />-->
-<!--		<classes>-->
-
-<!--			<class name="grid.TestParallel" />-->
-
-<!--		</classes>-->
-<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
 </suite> <!-- Suite -->

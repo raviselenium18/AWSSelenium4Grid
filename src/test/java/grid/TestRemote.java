@@ -20,8 +20,7 @@ public class TestRemote {
 		WebDriver driver = new RemoteWebDriver(new URL("http://13.127.248.106:4444/"),opt);
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("Hello Grid!!!");
-		System.out.println("Google");
-		System.out.println("Hello AWS");
+		System.out.println("AWS");
 		driver.quit();
 	}
 }

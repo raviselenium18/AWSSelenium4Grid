@@ -20,7 +20,7 @@ public class TestRemote {
 		WebDriver driver = new RemoteWebDriver(new URL("http://13.127.248.106:4444/"),opt);
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("Hello Grid!!!");
-		System.out.println("AWS Poll SCM Testing");
+		System.out.println("AWS Poll SCM");
 		driver.quit();
 	}
 }

@@ -21,6 +21,7 @@ public class TestRemote {
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("Hello Grid!!!");
 		System.out.println("AWS Poll SCM Test");
+		System.out.println("Jenkins Pipeline through Script and Jenkinsfile");
 		driver.quit();
 	}
 }
